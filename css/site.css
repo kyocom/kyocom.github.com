@@ -16,12 +16,20 @@ html { font-family:"Futura Light", "Century Gothic", "Helvetica Neue UltraLight"
 #MENUV { position:absolute; z-index:4; top:0px; left:445px; width:264px; height:469px; font-family:Verdana; }
 #LSCLNT { position:absolute; z-index:4; top:0px; left:445px; width:264px; height:469px; font-family:Verdana; }
 
+a { text-decoration: none; outline: 0px none black; }
+a:link { color: #000; }
+a:visited { color: #000; }
+a:active { color: #FFAD8D; }
+a:hover { color: #202F8F; }
+area { outline: 0px none black; }
+
 h1, h2, h3, h4, h5, h6 { font-weight:normal; }
 h1 {
 	font-family:"Century Gothic", "Helvetica Neue UltraLight", "Courier New", "Trebuchet MS", sans-serif;
 	letter-spacing:.4em;
 	color:white;
 }
+#site-title a{color:#000 !important;}
 h2 { text-transform:uppercase; font-family:"Century Gothic", "Futura Light", "Helvetica Neue UltraLight", "Courier New", "Trebuchet MS"; color:white; }
 h2 a, h2 a:link, h2 a:visited { color:white; }
 * html h2 a:link { color:#333333; } /*for Win IE*/
@@ -129,13 +137,6 @@ div.pics,
 
 .dummy { }
 body { margin: 0; padding: 0; background: #938965 url(../xt4/bgc.gif) repeat-y; color: #ffffff; background-attachment: fixed; }
-
-a { text-decoration: none; outline: 0px none black; }
-a:link { color: #1A1A1A; }
-a:visited { color: #ffffcc; }
-a:active { color: #FFAD8D; }
-a:hover { color: #202F8F; }
-area { outline: 0px none black; }
 
 .rub a, .rub a:visited {
 	color: #111111;
