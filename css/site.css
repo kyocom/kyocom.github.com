@@ -1,0 +1,179 @@
+/* Kyo ICHIDA, ABC Japon :ver. 2.8 */
+
+.dummy { color:black; }
+html { font-family:"Futura Light", "Century Gothic", "Helvetica Neue UltraLight", "Courier New", "Courier"; }
+
+#Layer1 { position:fixed; z-index:1; top:0px; left:26px; width:626px; height:600px; white-space:nowrap; }
+#Layer2 { position:absolute; z-index:2; top:0px; left:0px; margin:0; padding-left:26px;border: width:90%; }
+#gauche1 { position:fixed; z-index:3; top:0px; left:0px; }
+/*#MENU { position:absolute; z-index:8; top:106px; left:26px; width:200px; height:248px; }*/
+#gauche2 { position:fixed; z-index:8; top:0px; left:0px; width:26px; }
+#Layer3 { position:absolute; z-index:9; top:0px; left:0px; width:26px; height:573px; }
+.rub { position:absolute; z-index:3; top:24px; left:10px; width:180px; }
+.rub div, .rub li { height:21px; padding:3px 0 7px 0; font-family:"Century Gothic", "Futura Condensed", "Helvetica Neue UltraLight", Helvetica ; }
+#logo { position:absolute; z-index:2; top:340px; left:380px; width:391px; height:95px; }
+#haut { position:fixed; z-index:2; top:0px; left:0px; height:8px; }
+#MENUV { position:absolute; z-index:4; top:0px; left:445px; width:264px; height:469px; font-family:Verdana; }
+#LSCLNT { position:absolute; z-index:4; top:0px; left:445px; width:264px; height:469px; font-family:Verdana; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; }
+h1 {
+	font-family:"Century Gothic", "Helvetica Neue UltraLight", "Courier New", "Trebuchet MS", sans-serif;
+	letter-spacing:.4em;
+	color:white;
+}
+h2 { text-transform:uppercase; font-family:"Century Gothic", "Futura Light", "Helvetica Neue UltraLight", "Courier New", "Trebuchet MS"; color:white; }
+h2 a, h2 a:link, h2 a:visited { color:white; }
+* html h2 a:link { color:#333333; } /*for Win IE*/
+h2 a:hover { color:black; }
+* html h2 a:hover { color:white; } /*for Win IE*/
+p, h3,h4 { margin:0; color:#333333; }
+h4 span { font-size:95%; font-style:oblique; color:#666666; }
+
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+hr { height:1px; color:white; }
+
+th { text-align:center; }
+
+div.contents {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 23px 24px 23px;
+	text-align:left;
+	color:#333333;
+}
+.contents a {color:#332614;}
+.contents a:hover {
+	color:#ffffff;
+/*	background-color:#F7F2E7;*/
+}
+
+div.contenu {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 23px 24px 23px;
+	text-align:left;
+}
+
+div.dev {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 52px 24px 52px;
+	text-align:left;
+/*border:1px dotted red;*/
+}
+
+.photo {
+	margin:0;
+	padding:0 20px 0 0;
+	text-align:center;
+}
+.photo img {
+	border:3px solid white;
+}
+.hidden {display:none;}
+.centerize {text-align:center;}
+.clearing {height:0; clear:both;}
+
+table.tableau { border-top:1px solid white; border-left:1px solid white; }
+table.tableau td, table.tableau th { border-right:1px solid white; border-bottom:1px solid white; }
+
+.cell-g { color:#333333; white-space:nowrap; }
+.cell-d { color:#333333;
+; }
+.cell-g h3 { text-transform:uppercase; }
+
+#MENUV table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:280px;
+}
+
+#LSCLNT table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:280px;
+}
+
+.line { background-color:white; text-align:right; }
+.line2 { border-top:1px solid white;  border-bottom:1px solid white; }
+
+/* portfolio */
+div.pics,
+.cell-d h3,
+.cell-d h4 {
+	clear:both;
+}
+.pics a {
+	display:block;
+	float:left;
+	margin:0 8px 0 0;
+}
+.pics a img, .pics a:visited img {
+/*	border:2px solid #333333;*/
+	border:none;
+}
+.pics a:hover img {
+	zoom:1;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	-moz-opacity:0.6;
+}
+
+#footer { position:absolute; z-index:2; bottom:2px; right:2px; height:32px; }
+
+.dummy { }
+body { margin: 0; padding: 0; background: #938965 url(../xt4/bgc.gif) repeat-y; color: #ffffff; background-attachment: fixed; }
+
+a { text-decoration: none; outline: 0px none black; }
+a:link { color: #1A1A1A; }
+a:visited { color: #ffffcc; }
+a:active { color: #FFAD8D; }
+a:hover { color: #202F8F; }
+area { outline: 0px none black; }
+
+.rub a, .rub a:visited {
+	color: #111111;
+	text-transform: uppercase;
+	text-shadow: 3px 4px 3px #938965;
+}
+.rub a:hover {
+	color: white;
+	text-shadow: 3px 4px 3px #938965;
+}
+
+.ombre { text-shadow: 3px 4px 3px #938965; }
+
+table.tableau { text-shadow: 1px 2px 2px #938965; }
+table.tableau td:hover { background-color: #A79F82; }
+
+.tr1 { height: 18px;
+	background-image: url(../xt4/tr1.gif);
+	background-repeat: repeat-y;
+	padding-left: 10px;
+	text-shadow: 4px 5px 3px #938965;
+}
+.tr2 { height: 18px;
+	background-image: url(../xt4/tr2.gif);
+	background-repeat: repeat-y;
+	padding-left: 10px;
+	text-shadow: 4px 5px 3px #938965;
+}
+.tr3 { height: 36px;
+	background-image: url(../xt4/tr3.gif);
+	background-repeat: no-repeat;
+}
+
+#footer{
+	position:absolute;
+	right:18px;
+	bottom:0px;
+	text-align: right;
+	white-space: nowrap;
+	font-size:small;
+}
