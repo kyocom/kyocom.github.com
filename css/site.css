@@ -4,7 +4,7 @@
 html { font-family:"Futura Light", "Century Gothic", "Helvetica Neue UltraLight", "Courier New", "Courier"; }
 
 #Layer1 { position:fixed; z-index:1; top:0px; left:26px; width:626px; height:600px; white-space:nowrap; }
-#Layer2 { position:absolute; z-index:2; top:0px; left:0px; margin:0; padding-left:26px;border: width:90%; }
+#Layer2 { position:absolute; z-index:2; top:0px; left:0px; margin:0; padding-left:26px;border: width:95%; }
 #gauche1 { position:fixed; z-index:3; top:0px; left:0px; }
 /*#MENU { position:absolute; z-index:8; top:106px; left:26px; width:200px; height:248px; }*/
 #gauche2 { position:fixed; z-index:8; top:0px; left:0px; width:26px; }
@@ -69,9 +69,7 @@ div.contenu {
 }
 
 div.dev {
-	margin-left:auto;
-	margin-right:auto;
-	padding:0 52px 24px 52px;
+	margin-left:60px;
 	text-align:left;
 /*border:1px dotted red;*/
 }
