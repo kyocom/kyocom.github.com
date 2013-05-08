@@ -1,4 +1,4 @@
-// ABC Japon : Ver. 1.9 //
+// Ver. 1.91 //
 
 function CSClickReturn () {
 	var bAgent = window.navigator.userAgent; 
@@ -23,7 +23,7 @@ function CSAction2(fct, array) {
 				else{if(aa[j][0]=="ACT"){ta[j]=CSAction(new Array(new String(aa[j][1])));}
 				else ta[j]=aa[j];}
 			} else ta[j]=aa[j];
-		}			
+		}
 		result=aa[0](ta);
 	}
 	return result;
@@ -351,3 +351,7 @@ function hideMenu() {
 }
 
 CSAction(new Array('MN2Y'));
+
+function openNew(p,t){
+	ret = this.open(p,t,"toolbar=1, menubar=1, location=1, scrollbars=1, resize=1");
+}
