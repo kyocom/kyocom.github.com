@@ -96,11 +96,6 @@ css+='overflow:hidden;\
 	filter:alpha(opacity=50);\
 	opacity:0.5;\
 	-moz-opacity:0.5;\
-	-moz-border-radius:6px;\
-	-webkit-border-radius:6px;\
-	-o-border-radius:6px;\
-	-ms-border-radius:6px;\
-	border-radius:6px;\
 	-webkit-box-shadow:#333 1px 1px 4px;\
 	-moz-box-shadow:#333 1px 1px 4px;\
 	box-shadow:#333 1px 1px 4px;\
